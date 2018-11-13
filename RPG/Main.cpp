@@ -104,7 +104,7 @@ float GenerateRandomNumber() {
 	std::uniform_real_distribution<> dis(0, 1);
 
 	//Generate the randome number passing in the mersenne_twister_engine generator
-	float outcome = dis(gen);
+	double outcome = dis(gen);
 	std::cout << " outcome " << outcome;
 
 	return outcome;
